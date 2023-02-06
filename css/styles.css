@@ -1,28 +1,33 @@
+:root {
+  --white: #fff;
+  --navy: #2e2f42;
+}
+
 body {
   color: #2e2f42;
-  background-color: #e5e5e5;
+  background-color: var(--white);
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
 }
 ul {
   list-style-type: none;
 }
 .hero-title {
-  color: #fff;
-  background-color: #2e2f42;
+  color: var(--white);
+
   text-transform: uppercase;
   width: 494px;
-
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
 }
 
+.section-hero {
+  background-color: var(--navy);
+}
+
 .hero-text {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 }
@@ -37,14 +42,33 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.header {
+  background-color: var(--white);
+}
+
+.color-section {
+  background-color: #e5e5e5;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42ff;
+}
+
+.text-footer {
+  color: #e7e9fc;
+}
 .main-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  font-family: "Roboto";
   cursor: pointer;
   background-color: #4d5ae5;
-  color: #ffffff;
+  color: var(--white);
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -52,6 +76,7 @@ ul {
   height: 56px;
   left: 636px;
   top: 428px;
+  letter-spacing: 0.04em;
 }
 .main-button:hover {
   background-color: #404bbf;
@@ -68,15 +93,16 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .filter-button:hover {
   background-color: #404bbf;
-  color: #fff;
+  color: var(--white);
 }
 
 .filter-button:focus {
   background-color: #404bbf;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .header-links {
@@ -84,7 +110,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--navy);
+  letter-spacing: 0.02em;
 }
 .header-links:hover {
   color: #4d5ae5;
@@ -97,6 +124,7 @@ ul {
   line-height: 1.5;
   text-decoration: none;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 .contacts:hover {
   color: #4d5ae5;
@@ -105,14 +133,18 @@ ul {
   color: #4d5ae5;
 }
 .logo {
-  color: #2e2f42;
+  color: var(--navy);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
-.color-logo {
+.color-web {
   color: #4d5ae5;
+}
+.color-studio {
+  color: #f4f4fd;
 }
