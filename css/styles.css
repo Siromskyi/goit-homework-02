@@ -14,11 +14,9 @@ ul {
 }
 .hero-title {
   color: var(--white);
-
-  text-transform: uppercase;
-  width: 494px;
+  max-width: 496px;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
