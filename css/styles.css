@@ -1,3 +1,6 @@
+body {
+  color: #2e2f42;
+}
 .klick {
   font-family: roboto;
   width: semibold;
@@ -5,14 +8,17 @@
   line-height: 24px;
   letter-spacing: 4%;
   cursor: pointer;
+  background: #4d5ae5;
 }
-klick:hover {
+.klick:hover {
   background-color: blue;
 }
-
+.klick:focus {
+  color: white;
+}
 .contacts:hover,
 :focus {
-  color: brown;
+  color: #434455;
 }
 .links {
   font-family: roboto;
@@ -20,8 +26,5 @@ klick:hover {
   size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-}
-
-links:hover {
-  color: black;
+  color: #4d5ae5;
 }
