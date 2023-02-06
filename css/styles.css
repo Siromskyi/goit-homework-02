@@ -1,0 +1,27 @@
+.klick {
+  font-family: roboto;
+  width: semibold;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+klick:hover {
+  background-color: blue;
+}
+
+.contacts:hover,
+:focus {
+  color: brown;
+}
+.links {
+  font-family: roboto;
+  width: semibold;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+links:hover {
+  color: black;
+}
